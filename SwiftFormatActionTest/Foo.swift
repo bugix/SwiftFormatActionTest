@@ -12,10 +12,11 @@ public final class Foo {
   @_spi(Internals)
   public
     func scope<FooBar, FizzBuzz>(
-        id: String,
-        action fromChildAction: @escaping (FooBar) -> FizzBuzz
-    ) {
-        print("ohhi")
+      id: String,
+      action fromChildAction: @escaping (FooBar) -> FizzBuzz
+    )
+  {
+    print("ohhi")
   }
 
 }
