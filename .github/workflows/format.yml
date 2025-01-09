@@ -11,7 +11,7 @@ concurrency:
 jobs:
   swift_format:
     name: swift-format
-    runs-on: macos-15:
+    runs-on: macos-15
     steps:
       - uses: actions/checkout@v4
       - name: Select Xcode 16.2
